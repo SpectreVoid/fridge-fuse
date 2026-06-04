@@ -1,0 +1,19 @@
+# Ignore the active SQLite database file
+database.sqlite
+
+# Ignore database journal/lock files created during active writes
+*.sqlite-journal
+*.sqlite3-journal
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
